@@ -7,8 +7,7 @@ class frequency
         String str= k.nextLine();
         int[] freq = new int[str.length()];  
         int i, j;  
-          
-        //Converts given string into character array  
+         
         char string[] = str.toCharArray();  
           
         for(i = 0; i <str.length(); i++) {  

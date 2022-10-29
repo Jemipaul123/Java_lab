@@ -19,11 +19,11 @@ class Employee
 class Officer extends Employee
 {
  String specialization;
- String department;
+ 
 }
 class Manager extends Employee
 {
-	String specialization;
+	
 	String department;
 }
 
@@ -60,7 +60,7 @@ class employeemain
 
 
  Manager man = new Manager();
-  sc.nextLine();
+ 
  System.out.print("Enter the Details of Manager\n");   //Input details of Manager
   
   System.out.print("Name : ");
@@ -76,7 +76,7 @@ class employeemain
   System.out.print("Salary : ");
   man.salary = sc.nextLong();
   
-  System.out.println("\nDetails Of Officer");           //Print details
+  System.out.println("\nDetails Of Manager");           //Print details
   System.out.println("Name : "+man.name);
   System.out.println("Department : "+man.department);
   System.out.println("Age : "+man.age);

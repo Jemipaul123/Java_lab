@@ -9,6 +9,7 @@ abstract class Shape {
 
 }
 
+
 class Rectangle extends Shape {
 	void printArea() 
 {

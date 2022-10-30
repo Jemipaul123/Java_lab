@@ -1,5 +1,6 @@
 class garbcoll
 {
+    
     public static void main(String arg[])
     {
         Runtime gfg = Runtime.getRuntime();

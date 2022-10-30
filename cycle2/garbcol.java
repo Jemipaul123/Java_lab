@@ -1,6 +1,7 @@
 import java.io.*;
 
-public class garbcol{  
+public class garbcol{ 
+    
     public void finalize(){System.out.println("object is garbage collected");}  
     public static void main(String args[]){  
      TestGarbage1 s1=new TestGarbage1();  

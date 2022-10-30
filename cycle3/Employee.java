@@ -1,7 +1,10 @@
 import java.io.*;
 //Creating Employee class  
-class EmployeeDetails {  
-    //Creating properties of Employee class  
+
+class EmployeeDetails { 
+    
+    //Creating properties of Employee class
+    
 int emp_id, salary;  
 String name, address, department, email;  
   

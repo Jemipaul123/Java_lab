@@ -1,0 +1,3 @@
+While doing filestream.java enter some contents in this new.txt,
+so that these contents will get printed in the output.txt file
+Thats how filestream.java works

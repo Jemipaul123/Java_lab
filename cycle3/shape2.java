@@ -12,7 +12,7 @@ abstract class Shape {
 
 
 class Rectangle extends Shape {
-	void printArea() 
+	void printArea() //here only we are giving the definition of the abstract method mentioned in the abstract class
 {
 		
 System.out.println("*** Finding the Area of Rectangle ***");

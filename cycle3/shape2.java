@@ -7,7 +7,7 @@ abstract class Shape {
 
 	abstract void printArea();
 
-}
+}//abstract class just contains the declarations and the method names
 
 
 

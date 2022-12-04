@@ -53,7 +53,7 @@ public class AbstractClassExample
 public static void main(String[] args)
  {
    Rectangle rec = new Rectangle();
-   rec.printArea();
+   rec.printArea();// inorder to access the methods of the object we need to create ojects of the class
 
    Triangle tri = new Triangle();
    tri.printArea();

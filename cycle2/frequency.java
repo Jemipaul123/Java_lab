@@ -5,10 +5,10 @@ class frequency
           Scanner k = new Scanner(System.in);
         System.out.println("Enter the string");
         String str= k.nextLine();
-        int[] freq = new int[str.length()];  
+        int[] freq = new int[str.length()];  //creating an integer array to store frequency
         int i, j;  
          
-        char string[] = str.toCharArray();  
+        char string[] = str.toCharArray();  // character array to store the characters
           
         for(i = 0; i <str.length(); i++) {  
             freq[i] = 1;  

@@ -12,7 +12,9 @@ class stringtoken{
 		System.out.println("The integers are:");
 		while(sto.hasMoreTokens()){
 			int n = 0;
-			n = Integer.parseInt(sto.nextToken());
+			n = Integer.parseInt(sto.nextToken());//to convert the string of numbers into integers so they can be added
+			//and each integer is stored in n
+			//and each time this n gets added to the sum in a loop
 			System.out.println(n);
 			sum += n;
 		}

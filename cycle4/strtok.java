@@ -2,6 +2,7 @@ import java.util.Scanner;
 import java.io.IOException;
 import java.util.StringTokenizer;
 class stringtoken{
+	
 	public static void main(String a[]){
 		String str;
 		Scanner sc=new Scanner(System.in);

@@ -1,23 +1,26 @@
 import java.io.*;
-import java.util.Scanner;
-class palind{  
- public static void main(String args[]){  
-  int r,sum=0,temp,n; 
-  Scanner s = new Scanner(System.in);
-      System.out.println("Enter the number");
-        n = s.nextInt();
+import java.util.*;
 
-  //It is the number variable to be checked for palindrome  
-  
-  temp=n;    
-  while(n>0){    
-   r=n%10;  //getting remainder  
-   sum=(sum*10)+r;    
-   n=n/10;    
-  }    
-  if(temp==sum)    
-   System.out.println("palindrome number ");    
-  else    
-   System.out.println("not palindrome");    
-}  
-}  
+public class pal{
+
+    public static void main(String args[]){
+    String str2 ="";
+        Scanner sc = new Scanner(System.in);
+    System.out.println("enter the string");
+    String str= sc.nextLine();
+    
+    int n= str.length();
+    int i;
+    for(i=n-1;i>=0;i--)
+    {
+        str2 = str2 + str.charAt(i);
+    }
+   if(str.equals(str2))
+   {
+    System.out.println("Palindrome");}
+    else
+    {
+        System.out.println("not palindrome");
+    }
+   }
+}

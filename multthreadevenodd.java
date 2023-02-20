@@ -1,3 +1,4 @@
+//WITHOUT SYNCHRONISING BUT SLEEPING ONE THREAD LONGER
 class Myrunnable1 implements Runnable{
 
     public void run(){
